@@ -33,9 +33,10 @@ a{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
+    object-fit: cover;
 }
 
-.container:hover .overlay {
+.up:hover .overlay {
     opacity: 1;
 }
 
@@ -91,4 +92,8 @@ p{
     text-decoration: line-through;
     color: rgb(143, 142, 142);
     display: inline-block;
+}
+
+.text{
+    z-index: 300;
 }
