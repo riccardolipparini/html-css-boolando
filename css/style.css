@@ -10,25 +10,85 @@ body{
 
 /* parte sopra */
 
-.clearfix{
+.container{
+
     width: 80%;
-    /* debug */
-    height: 500px;
-    background-color: aqua;
     margin: 0 auto;
-}
-
-
-.sideup{
-    float: left;
-    width: 20%;
     /* debug */
-    height: 500px;
-    background-color: blue;
+    /* height: 500px;
+    margin-top: 50px; */
 }
 
-.centerup{
+a{
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+
+.up{
     float: left;
-    width: 60%;
-    height: 500px;
+    width: calc(100% / 3);
+    border-right: solid 5px white;
+    position: relative;
+    
+}
+
+.up img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.discount{
+    padding: 5px;
+    font-size: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    color: white;
+}
+
+.sostenibilità{
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(11, 146, 52);
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    color: white;
+}
+.cuore{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+h4{
+    color: lightgray;
+}
+h3{
+    color: red;
+    display: inline-block;
+}
+
+p{
+    text-decoration: line-through;
+    color: rgb(143, 142, 142);
+    display: inline-block;
 }
