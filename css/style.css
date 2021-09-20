@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* parte sopra */
+
+.clearfix{
+    width: 80%;
+    /* debug */
+    height: 500px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+
+.sideup{
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 500px;
+    background-color: blue;
+}
+
+.centerup{
+    float: left;
+    width: 60%;
+    height: 500px;
+}
